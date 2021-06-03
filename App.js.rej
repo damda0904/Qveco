@@ -1,0 +1,16 @@
+diff a/App.js b/App.js	(rejected hunks)
+@@ -6,12 +6,13 @@
+  * @flow strict-local
+  */
+ 
+- import React from 'react';
++ import React,{useEffect, useState} from 'react';
+ 
+  import { createStackNavigator } from "@react-navigation/stack";
+  import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
+  import { useFonts } from 'expo-font';
+  
++ 
+ 
+  import SignUp from "./front/landing/SignUp";
+  import SignIn from "./front/landing/SignIn";
